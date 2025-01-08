@@ -1,13 +1,45 @@
-<<<<<<< HEAD
-# React + Vite
+# Headline Hub - News Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Headline Hub is a responsive and dynamic news web app built using React, providing users with top headlines from various categories using the [NewsAPI](https://newsapi.org/).
 
-Currently, two official plugins are available:
+## Features
+- Fetches the latest news headlines from multiple categories such as Technology, Business, Health, Science, Sports, and Entertainment.
+- Displays news articles with their title, description, and image.
+- Provides a "Read More" button that links to the full news article.
+- Custom fallback description for articles missing content.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
-# HeadlineHub
-Headline Hub is an news web application build using react.js and bootstrap is used for styling
->>>>>>> 78f631930176416a57ee85ebb012f17215b74627
+## Technologies Used
+- **React**: JavaScript library for building user interfaces.
+- **NewsAPI**: API to fetch top headlines and news articles.
+- **Bootstrap**: CSS framework for responsive design.
+- **React Hooks**: For managing state and side effects.
+
+## Screenshots
+![News App Screenshot](./assets/screenshot.jpg)
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Tarun01_guleria/headline-hub.git
+   
+2.Install the required dependencies:
+   cd headline-hub
+   npm install
+
+3.Create a .env file in the root directory and add your NewsAPI API key:
+  VITE_API_KEY= KEY.
+  
+4. Run the app locally:
+
+     Copy code
+     npm run dev
+
+# How to use
+1.select a category from the navbar to view the latest news in that category.
+2.Scroll through the list of articles, click on "Read More" to open the full article.
+
+
+
+
+
